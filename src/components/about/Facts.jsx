@@ -46,7 +46,7 @@ const Facts = () => {
             whileInView="visible"
             className='grid grid-cols-4'
          >
-            <div className='flex items-start gap-3 px-6 py-8'>
+{/*             <div className='flex items-start gap-3 px-6 py-8'>
                <BsEmojiSmile className='text-[#149DDD]' size={42} />
                <FactCard figure='232' title='Happy Clients' description='consequuntur quae' />
             </div>
@@ -61,7 +61,7 @@ const Facts = () => {
             <div className='flex items-start gap-3 px-6 py-8'>
                <BsPeople className='text-[#149DDD]' size={42} />
                <FactCard figure='52' title='Hard Workers' description='consequuntur quae' />
-            </div>
+            </div> */}
          </motion.div>
       </motion.div>
    )
