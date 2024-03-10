@@ -1,10 +1,4 @@
-import {
- 
- 
-  FaLinkedinIn,
-  FaEnvelope,
-  FaGithub,
-} from "react-icons/fa";
+import { FaLinkedinIn, FaEnvelope, FaGithub } from "react-icons/fa";
 import {
   AiOutlineFile,
   AiOutlineHome,
@@ -40,13 +34,22 @@ const Navbar = () => {
         {/* Social Links */}
         <div className="flex gap-3">
           <div className="p-[10px] bg-[#2C2F3F] rounded-full">
-            <FaEnvelope size={25} />
+            <a href="https://mail.google.com/mail?hl=en" target="_blank">
+              <FaEnvelope size={25} href="" />
+            </a>
           </div>
           <div className="p-[10px] bg-[#2C2F3F] rounded-full">
-            <FaLinkedinIn size={25} />
+            <a
+              href="https://www.linkedin.com/in/abha-rani-497196283"
+              target="_blank"
+            >
+              <FaLinkedinIn size={25} />
+            </a>
           </div>
           <div className="p-[10px] bg-[#2C2F3F] rounded-full">
-            <FaGithub size={25} />
+            <a href="https://github.com/abharani" target="_blank">
+              <FaGithub size={25} />
+            </a>
           </div>
         </div>
       </div>
@@ -57,7 +60,7 @@ const Navbar = () => {
           <AiOutlineHome size={25} />
           <p>Home</p>
         </a>
-        <a className="flex items-center gap-3" href="">
+        <a className="flex items-center gap-3" href={<About />}>
           <AiOutlineUser size={25} />
           <p>About</p>
         </a>
