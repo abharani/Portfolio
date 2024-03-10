@@ -54,20 +54,13 @@ const Portfolio = () => {
          viewport={{ once: false, amount: 0.25 }}
          className="bg-[#f5f8fd] w-full"
       >
-         <div className="text-black py-16 px-36 w-full">
+         <div className="text-black bg-slate-50 py-16  px-24 w-full">
             <Heading text="Projects" />
             <div className="flex flex-col">
-               <div className=" flex justify-center justify-items-center columns-lg col-lg-12 ">
-                  {/* <ul className=" bg-white text-center m-auto mb-9 list-none border rounded-3xl px-4 py-1">
-                     <li className="text-[#149ddd] inline-block pt-2 pb-2 px-4 text-sm">ALL</li>
-                     <li className="inline-block pt-2 pb-2 px-4 text-sm  text-black mb-1"> APP</li>
-                     <li className="inline-block pt-2 pb-2 px-4 text-sm  text-black mb-1">CARD</li>
-                     <li className="inline-block pt-2 pb-2 px-4 text-sm  text-black mb-1">WEB</li>
-                  </ul> */}
-               </div>
+              
                <div className="w-full ">
                   <div
-                     className="grid grid-cols-3 gap-4 place-content-center"
+                     className="grid grid-cols-2 gap-10 place-content-center"
                   >
                      {images.map((imageUrl, idx) => (
                         <motion.div
