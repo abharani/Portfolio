@@ -60,7 +60,7 @@ const Navbar = () => {
           <AiOutlineHome size={25} />
           <p>Home</p>
         </a>
-        <a className="flex items-center gap-3" href={<About />}>
+        <a className="flex items-center gap-3" href="">
           <AiOutlineUser size={25} />
           <p>About</p>
         </a>
