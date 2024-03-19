@@ -76,7 +76,7 @@ const About = () => {
              <p>
              
 
-               Aspiring certified Full Stack Web Developer skilled in
+               Certified Full Stack Web Developer skilled in
                Javascript, MongoDB, Express, React and Node Js, with
                problem-solving abilities in developing interactive, innovative
                and user-friendly web applications. My goal is to become an
