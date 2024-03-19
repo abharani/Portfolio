@@ -1,5 +1,5 @@
 import Heading from "./Heading";
-import { BsSkype, BsTwitter } from "react-icons/bs";
+import { BsSlack, BsTwitter } from "react-icons/bs";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { BiEnvelope } from "react-icons/bi";
 import { BsGeoAlt, BsPhone } from "react-icons/bs";
@@ -27,7 +27,7 @@ const slideIn = (direction) => ({
 const Details = ({ title, text }) => {
   return (
     <div>
-      <h3 className="text-2xl font-bold">{title}</h3>
+      <h3 className="text-xl font-bold">{title}</h3>
       <p className="text-gray-600">{text}</p>
     </div>
   );
@@ -70,9 +70,7 @@ const Contact = () => {
               <div className="flex items-center justify-center p-4 rounded-full bg-[#dff3fc] text-[#149ddd]">
                 <BsGeoAlt size={23} />
               </div>
-              <Details
-                title="New Delhi, India 110084"
-              />
+              <Details title="New Delhi, India 110084" />
             </div>
             <div className="flex gap-4">
               <div className="flex items-center justify-center p-4 rounded-full bg-[#dff3fc] text-[#149ddd]">
@@ -101,6 +99,12 @@ const Contact = () => {
             {/* Social Links */}
             <div className="flex gap-3">
               <div className="p-[10px] bg-[#dff3fc] rounded-full">
+                <FaLinkedinIn size={23} />
+              </div>
+              <div className="p-[10px] bg-[#dff3fc] rounded-full">
+                <BsSlack size={23} />
+              </div>
+              <div className="p-[10px] bg-[#dff3fc] rounded-full">
                 <BsTwitter size={23} />
               </div>
 
@@ -110,14 +114,6 @@ const Contact = () => {
 
               <div className="p-[10px] bg-[#dff3fc] rounded-full">
                 <FaInstagram size={23} />
-              </div>
-
-              <div className="p-[10px] bg-[#dff3fc] rounded-full">
-                <BsSkype size={23} />
-              </div>
-
-              <div className="p-[10px] bg-[#dff3fc] rounded-full">
-                <FaLinkedinIn size={23} />
               </div>
             </div>
           </div>

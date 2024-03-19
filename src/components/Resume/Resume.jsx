@@ -66,14 +66,17 @@ const Resume = () => {
             <p className="mt-0 mb-4 italic">
               Guru Gobind Singh Indraprastha University, New Delhi
             </p>
-            <p className="box-border mt-0 mb-4">
-              Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam
-              iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti
-              nerada porti sand markend
-            </p>
+
+            <h3 className=" text-lg font-semibold font-sans text-[#050d18] mt-0 mb-2.5">
+              Senior Secondary School
+            </h3>
+            <h5 className=" text-base bg-[#e4edf9] py-1.5 px-4 inline-block font-semibold mb-2.5 mt-0 font-sans">
+              2015-2016
+            </h5>
+            <p className="mt-0 mb-4 italic">kendriya Vidyalaya Shalimar Bagh, New Delhi</p>
           </div>
 
-          <h3 className=" text-2xl font-bold font-sans  my-5 text-black">
+          <h3 className="font-bold  text-[#050d18] text-2xl my-5">
             Soft Skills
           </h3>
           <div className="relative pl-5 -scroll-mt-0.5 border-l-2 border-[#1f5297] pb-0 pt-0 pr-0 ">
@@ -107,13 +110,13 @@ const Resume = () => {
             <p className="mt-0 mb-4 italic">Bangalore, Karnataka, India</p>
             <ul className="mt-0 mb-4 pl-5 block list-disc ">
               <li className=" pb-2.5 list-item ">
-                Full Stack Web Development trainee in MERN Stack with six months
+                Full Stack Web Development trainee in MERN Stack with one year
                 of intensive training in content along with projects.
               </li>
               <li className="pb-2.5">
                 Acquired practical expertise in both front-end and back-end
-                languages and tools, like React, Node.js, and MongoDB, to build
-                robust web applications.
+                languages and tools, like React, Node.js, Express and MongoDB,
+                to build robust web applications.
               </li>
               <li className="pb-2.5">
                 Built and deployed fully functional, responsive, full-stack web
@@ -146,8 +149,6 @@ const Resume = () => {
               </li>
             </ul>
           </div>
-
-         
         </motion.div>
       </div>
     </motion.div>
