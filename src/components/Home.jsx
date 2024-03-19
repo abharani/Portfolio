@@ -1,8 +1,12 @@
 import { motion } from 'framer-motion';
 import { staggerContainer, textVariant, textVariant2 } from '../utils/motion';
+import AboutMain from './about/AboutMain';
+import Resume from './Resume/Resume';
+import Portfolio from './Portfolio';
+import Contact from './Contact';
 // import {bg_portfolio.jpeg} from "../public/images";
 const Home = () => {
-   return (
+   return (<>
       <motion.div
          variants={staggerContainer}
          initial="hidden"
@@ -35,6 +39,11 @@ const Home = () => {
             >Web Developer</motion.p>
          </div>
       </motion.div>
+      <AboutMain />
+      <Resume />
+      <Portfolio />
+      <Contact />
+      </>
    )
 }
 
