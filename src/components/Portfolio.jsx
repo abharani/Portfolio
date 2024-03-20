@@ -52,7 +52,7 @@ const Portfolio = () => {
       viewport={{ once: false, amount: 0.25 }}
       className="bg-[#f5f8fd] w-full"
     >
-      <div className="text-black bg-slate-50 py-16  px-24 w-full">
+      <div className="text-black bg-slate-50 py-16  px-24  w-full scr" >
         <Heading text="Projects" />
         <div className="flex flex-col">
           <div className="w-full ">
