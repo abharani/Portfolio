@@ -99,7 +99,10 @@ const Contact = () => {
             {/* Social Links */}
             <div className="flex gap-3">
               <div className="p-[10px] bg-[#dff3fc] rounded-full">
-                <FaLinkedinIn size={23} />
+                <a
+                  href="https://www.linkedin.com/in/abha-rani-497196283"
+                  target="_blank"
+                > <FaLinkedinIn size={23} /></a>
               </div>
               <div className="p-[10px] bg-[#dff3fc] rounded-full">
                 <BsSlack size={23} />
