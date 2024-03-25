@@ -24,7 +24,7 @@ const Navbar = () => {
       {/* Profile */}
       <>
         <div className="flex flex-col gap-0 sm:gap-1 items-center">
-          <div className="bg-[#2C2F3F] lg:w-24 md:w-16 md:h-16  lg:h-24 xl:w-32 xl:h-32 p-1 rounded-full">
+          <div className="bg-[#2C2F3F] lg:w-24 w-10 h-10 md:w-16 md:h-16  lg:h-24 xl:w-32 xl:h-32 p-1 rounded-full">
             <img
               className="w-full h-full  rounded-full"
               src="./images/profile1.jpg"
