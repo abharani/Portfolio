@@ -35,7 +35,7 @@ const Facts = () => {
          variants={slideUp}
          initial="hidden"
          whileInView="visible"
-         className="grid grid-cols-5  xl:grid-cols-4"
+         className="grid md:grid-cols-6 lg:grid-cols-5  xl:grid-cols-4"
        >
          <div className="flex items-start gap-3 px-6 py-8">
            <img src="https://th.bing.com/th?id=OIP.bN6cnS4rQ5PWJcYI9jFVGQHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.2&pid=3.1&rm=2" />
@@ -57,7 +57,7 @@ const Facts = () => {
          variants={slideUp}
          initial="hidden"
          whileInView="visible"
-         className="grid grid-cols-5  xl:grid-cols-4"
+         className="grid md:grid-cols-6 lg:grid-cols-5  xl:grid-cols-4"
        >
          <div className="flex items-start gap-3 px-6 py-8">
            <img src="https://th.bing.com/th/id/OIP.HCn9NkA9Oxf9wWol4u_QjgHaE8?w=250&h=250&c=7&r=0&o=5&dpr=1.2&pid=1.7" />
