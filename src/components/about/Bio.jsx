@@ -5,10 +5,10 @@ const Info = ({ title, detail }) => {
       <div className='flex items-center text-lg'>
          <MdOutlineKeyboardArrowRight
             size={30}
-            className='text-[#149ddd] -ml-2'
+            className='text-[#149ddd]  -ml-2'
          />
-         <p className='font-semibold ml-[1px] mr-2'>{title}:</p>
-         <p>{detail}</p>
+         <p className='font-semibold md:text-sm lg:text-base xl:text-xl ml-[1px] mr-2'>{title}:</p>
+         <p className='lg:text-base xl:text-xl md:text-sm'>{detail}</p>
       </div>
    )
 }
@@ -16,7 +16,7 @@ const Info = ({ title, detail }) => {
 const Bio = () => {
    return (
      <div className="flex">
-       <div className="flex flex-col justify-start w-[50%] gap-3">
+       <div className="flex flex-col justify-start lg:w-[50%] sm:w-[100%] gap-3 ">
          <Info title="Birthday" detail="18 August 1997" />
          
          <Info title="Phone" detail="+91 7011231189" />

@@ -13,12 +13,12 @@ function App() {
     <BrowserRouter>
 
         <div className="flex overflow-x-hidden">
-          <div className="bg-[#040B14] h-[100vh] w-80 flex flex-col justify-between fixed py-6 z-50">
+          <div className="bg-[#040B14] h-[100vh] w-40 sm:w-60 lg:w-72 md:w-60 flex flex-col justify-between fixed py-6 z-50">
             <Navbar />
             <Footer />
           </div>
 
-          <div className="w-[100%] ml-80">
+          <div className="w-[100%] ml-40  sm:ml-56 lg:ml-72 md:ml-64">
           {/* <Home/>
           <AboutMain/>
           <Resume/>

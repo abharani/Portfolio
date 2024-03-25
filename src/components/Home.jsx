@@ -18,7 +18,7 @@ const Home = () => {
             className="relative h-full w-full"
          >
             <img
-               className=" w-full mx-5   "
+               className=" w-full mx-0 md:h-[95vh] md:w-[190vh] "
                src="./images/background.jpg"
                alt=""
             />
@@ -27,15 +27,15 @@ const Home = () => {
          </div>
 
          <div
-            className="absolute bottom-32 left-80 text-white"
+            className="absolute md:top-[70vh]     sm:left-52 sm:top-96 left-40 top-72  xl:left-96 lg:left-64 text-white md:left-52"
          >
             <motion.p
                variants={textVariant2}
-               className="text-[64px] font-semibold"
+               className="text-[24px] md:text-[30px]  lg:test-[40px] font-semibold"
             >Abha Rani</motion.p>
             <motion.p
                variants={textVariant(1.1)}
-               className="text-3xl font-light"
+               className="text-1xl md:text-2xl  lg:text-3xlfont-normal"
             >Web Developer</motion.p>
          </div>
       </motion.div>

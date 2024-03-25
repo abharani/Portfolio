@@ -8,11 +8,11 @@ const Footer = () => {
          variants={footerVariants}
          initial="hidden"
          whileInView="show"
-         className="flex flex-col items-center text-white mx-auto text-sm gap-1"
+         className="flex flex-col items-center text-white mx-auto text-sm  align-middle"
       >
       
          <div>
-            Designed by
+            Designed by 
             <a
                className="text-[#37B3ED]"
                href="https://bootstrapmade.com/"

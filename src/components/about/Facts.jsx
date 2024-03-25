@@ -1,17 +1,8 @@
 import {motion} from 'framer-motion'
 import Heading from '../Heading'
-import { BsEmojiSmile, BsHeadset, BsJournalRichtext, BsPeople } from 'react-icons/bs';
 import { staggerContainer } from '../../utils/motion';
 
-const FactCard = ({figure, title, description}) => {
-   return (
-      <div className='flex flex-col -mt-1'>
-         <p className='text-5xl font-extrabold mb-2'>{figure}</p>
-         <p className='text-sm font-semibold'>{title}</p>
-         <p className='text-sm text-slate-500'>{description}</p>
-      </div>
-   )
-}
+
 
 const slideUp = {
    hidden: {
@@ -36,7 +27,7 @@ const Facts = () => {
        initial="hidden"
        whileInView="show"
        viewport={{ once: false, amount: 0.25 }}
-       className="flex flex-col gap-5 py-8 px-36"
+       className="flex flex-col gap-5 lg:py-8 xl:px-36 p-1  lg:px-10"
      >
        <Heading text="Skills" />
 
@@ -44,7 +35,7 @@ const Facts = () => {
          variants={slideUp}
          initial="hidden"
          whileInView="visible"
-         className="grid grid-cols-4"
+         className="grid grid-cols-5  xl:grid-cols-4"
        >
          <div className="flex items-start gap-3 px-6 py-8">
            <img src="https://th.bing.com/th?id=OIP.bN6cnS4rQ5PWJcYI9jFVGQHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.2&pid=3.1&rm=2" />
@@ -66,7 +57,7 @@ const Facts = () => {
          variants={slideUp}
          initial="hidden"
          whileInView="visible"
-         className="grid grid-cols-4"
+         className="grid grid-cols-5  xl:grid-cols-4"
        >
          <div className="flex items-start gap-3 px-6 py-8">
            <img src="https://th.bing.com/th/id/OIP.HCn9NkA9Oxf9wWol4u_QjgHaE8?w=250&h=250&c=7&r=0&o=5&dpr=1.2&pid=1.7" />
