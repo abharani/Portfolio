@@ -31,40 +31,40 @@ const Facts = () => {
     >
       <Heading text="Skills" />
 
-      <motion.div
-        variants={slideUp}
-        initial="hidden"
-        whileInView="visible"
-        className="grid md:grid-cols-6 lg:grid-cols-5  xl:grid-cols-4"
-      >
-        <div className="flex items-start gap-3 px-6 py-8">
-          <img src="https://th.bing.com/th?id=OIP.bN6cnS4rQ5PWJcYI9jFVGQHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.2&pid=3.1&rm=2" />
-        </div>
-        <div className="flex items-start gap-3 px-6 py-8">
-          <img src="https://th.bing.com/th?id=OIP.MobEVh-brv26WdYdJmCrvgHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.2&pid=3.1&rm=2"></img>
-        </div>
-        <div className="flex items-start gap-3 px-6 py-8">
-          <img src="https://th.bing.com/th/id/OIP.yUIb5S_kj98Eg5tT-Onx1AHaHa?w=250&h=250&c=7&r=0&o=5&dpr=1.2&pid=1.7" />
-        </div>
-        <div className="flex items-start gap-3 px-6 py-8">
-          <img
-            height="100%"
-            src="https://th.bing.com/th/id/OIP.erfhCDqTDtIsbdMu1PbpRgHaEo?w=250&h=250&c=7&r=0&o=5&dpr=1.2&pid=1.7"
-          />
-        </div>
-      </motion.div>
-      <motion.div
-        variants={slideUp}
-        initial="hidden"
-        whileInView="visible"
-        className="grid md:grid-cols-6 lg:grid-cols-5  xl:grid-cols-4"
-      >
-        <div className="flex items-start gap-3 px-6 py-8">
-          <img src="https://th.bing.com/th/id/OIP.HCn9NkA9Oxf9wWol4u_QjgHaE8?w=250&h=250&c=7&r=0&o=5&dpr=1.2&pid=1.7" />
-        </div>
-        <div className="flex items-start gap-3 px-6 py-8">
-          <img src="https://th.bing.com/th?id=OIP.Y-BbFmqRsIQWzX5BWC4mNQHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.2&pid=3.1&rm=2"></img>
-        </div>
+       <motion.div
+         variants={slideUp}
+         initial="hidden"
+         whileInView="visible"
+         className="grid md:grid-cols-6 lg:grid-cols-5  xl:grid-cols-4"
+       >
+         <div className="flex items-start gap-3 px-6 py-8">
+           <img src="https://th.bing.com/th?id=OIP.bN6cnS4rQ5PWJcYI9jFVGQHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.2&pid=3.1&rm=2" />
+         </div>
+         <div className="flex items-start gap-3 px-6 py-8">
+           <img src="https://th.bing.com/th?id=OIP.MobEVh-brv26WdYdJmCrvgHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.2&pid=3.1&rm=2"></img>
+         </div>
+         <div className="flex items-start gap-3 px-6 py-8">
+           <img src="https://th.bing.com/th/id/OIP.yUIb5S_kj98Eg5tT-Onx1AHaHa?w=250&h=250&c=7&r=0&o=5&dpr=1.2&pid=1.7" />
+         </div>
+         <div className="flex items-start gap-3 px-6 py-8">
+           <img
+             height="100%"
+             src="https://th.bing.com/th/id/OIP.erfhCDqTDtIsbdMu1PbpRgHaEo?w=250&h=250&c=7&r=0&o=5&dpr=1.2&pid=1.7"
+           />
+         </div>
+       </motion.div>
+       <motion.div
+         variants={slideUp}
+         initial="hidden"
+         whileInView="visible"
+         className="grid md:grid-cols-6 lg:grid-cols-5  xl:grid-cols-4"
+       >
+         <div className="flex items-start gap-3 px-6 py-8">
+           <img src="https://th.bing.com/th/id/OIP.HCn9NkA9Oxf9wWol4u_QjgHaE8?w=250&h=250&c=7&r=0&o=5&dpr=1.2&pid=1.7" />
+         </div>
+         <div className="flex items-start gap-3 px-6 py-8">
+           <img src="https://th.bing.com/th?id=OIP.Y-BbFmqRsIQWzX5BWC4mNQHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.2&pid=3.1&rm=2"></img>
+         </div>
 
         <div className="flex items-start gap-3 px-6 py-8">
           <img src="https://th.bing.com/th/id/OIP.tVi-xAJFXwH3_9caWOkqTwHaHa?w=250&h=250&c=7&r=0&o=5&dpr=1.2&pid=1.7"></img>
