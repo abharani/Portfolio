@@ -30,7 +30,7 @@ const Resume = () => {
     >
       <Heading text={"Resume"} />
 
-      <div className="flex text-[#272829] font-sans gap-6 xl:gap-12">
+      <div className="flex text-[#272829] font-sans gap-1 xl:gap-12">
         <motion.div
           variants={slideIn("right")}
           initial="hidden"
@@ -50,7 +50,7 @@ const Resume = () => {
             <ul className="mt-0 mb-4 pl-5 block list-disc ">
               <li className=" pb-2.5 list-item ">New Delhi, India 110084</li>
               <li className=" pb-2.5">(+91) 7011231189</li>
-              <li className=" pb-2.5">abha.rangira@gmail.com</li>
+              <li className=" pb-2.5">abha.</li>
             </ul>
           </div>
           <h3 className=" font-bold  text-[#050d18] text-xl xl:text-2xl my-5">
@@ -95,7 +95,7 @@ const Resume = () => {
           variants={slideIn("left")}
           initial="hidden"
           whileInView="visible"
-          className="lg:w-1/2 pr-2 xl:w-1/2 md:w-1/3 xl:px-0"
+          className="lg:w-1/2  xl:w-1/2 md:w-1/3 xl:px-0"
         >
           <h3 className="font-bold text-[#050d18] text-xl xl:text-2xl  my-5">
             Professional Experience
