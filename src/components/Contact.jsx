@@ -248,11 +248,12 @@ const Input = ({ label, type }) => {
 
 const Contact = () => {
   return (
-    <motion.div
+    <motion.section
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
       viewport={{ once: true }}
+      id="contact"
       className="bg-white py-16 md:px-10 lg:px-20 xl:px-36 "
     >
       <Heading text="Contact" />
@@ -344,7 +345,7 @@ const Contact = () => {
           </form>
         </motion.div>
       </div>
-    </motion.div>
+    </motion.section>
   );
 };
 

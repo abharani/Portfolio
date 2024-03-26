@@ -38,11 +38,12 @@ const bioVariant = {
 
 const About = () => {
   return (
-    <motion.div
+    <motion.section
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
       viewport={{ once: true }}
+      id='about'
       className="flex flex-col py-16 px-10 xl:px-36 gap-5"
     >
       <Heading text="About" />
@@ -91,7 +92,7 @@ const About = () => {
           </div>
         </motion.div>
       </div>
-    </motion.div>
+    </motion.section>
   );
 }
 

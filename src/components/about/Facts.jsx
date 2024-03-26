@@ -22,11 +22,12 @@ const slideUp = {
 
 const Facts = () => {
   return (
-    <motion.div
+    <motion.section
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
       viewport={{ once: true }}
+      id='skills'
       className="flex flex-col gap-5 lg:py-8 xl:px-36 p-1  lg:px-10"
     >
       <Heading text="Skills" />
@@ -81,7 +82,7 @@ const Facts = () => {
            <img src="https://th.bing.com/th?id=OSK.e812bec137af36c10dfe4b944efa000b&w=250&h=250&c=7&o=6&dpr=1.2&pid=SANGAM"></img>
          </div>  */}
       </motion.div>
-    </motion.div>
+    </motion.section>
   );
 }
 

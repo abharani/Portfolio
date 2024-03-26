@@ -21,11 +21,12 @@ const slideIn = (direction) => ({
 
 const Resume = () => {
   return (
-    <motion.div
+    <motion.section
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
       viewport={{ once: true }}
+      id="resume"
       className="text-black text-lg py-16 xl:px-36 px-10"
     >
       <Heading text={"Resume"} />
@@ -155,7 +156,7 @@ const Resume = () => {
           </div>
         </motion.div>
       </div>
-    </motion.div>
+    </motion.section>
   );
 };
 

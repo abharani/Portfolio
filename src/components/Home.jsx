@@ -39,10 +39,10 @@ const Home = () => {
             >Web Developer</motion.p>
          </div>
       </motion.div>
-      <AboutMain />
+      {/* <AboutMain />
       <Resume />
       <Portfolio />
-      <Contact />
+      <Contact /> */}
       </>
    )
 }

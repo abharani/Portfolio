@@ -27,11 +27,12 @@ const slideUp = {
 
 const Portfolio = () => {
   return (
-    <motion.div
+    <motion.section
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
       viewport={{ once: true }}
+      id="projects"
       className=" "
     >
       <div className="text-black  py-16  px-10 xl:px-36  w-full ">
@@ -200,7 +201,7 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-    </motion.div>
+    </motion.section>
   );
 };
 

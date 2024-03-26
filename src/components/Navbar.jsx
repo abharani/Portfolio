@@ -15,7 +15,7 @@ import { Link, } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <motion.div
+    <motion.nav
       variants={navVariants}
       initial="hidden"
       whileInView="show"
@@ -60,34 +60,34 @@ const Navbar = () => {
         <div className="flex flex-col xl:gap-7 text-[#ABA9B4] md:text-[10px] lg:text-[15px] xl:text-[20px] font-light lg:gap-4 md:gap-2 ml-5 lg:pt-4">
           <a className="flex items-center gap-3" href="">
             <AiOutlineHome size={25}  />
-            <Link to="/">Home</Link>
+            Home
           </a>
-          <a className="flex items-center gap-3" href="">
+          <a className="flex items-center gap-3" href="#about">
             <AiOutlineUser size={25} />
-            <Link to="/about">About</Link>
+            About
           </a>
-          <a className="flex items-center gap-3" href="">
+          <a className="flex items-center gap-3" href="#skills">
             <BiServer size={25} />
-            <Link to="/skills">Skills</Link>
+            Skills
           </a>{" "}
-          <a className="flex items-center gap-3" href="">
+          <a className="flex items-center gap-3" href="#resume">
             <AiOutlineFile size={25} />
-            <Link to="/resume">Resume</Link>
+            Resume
           </a>
-          <a className="flex items-center gap-3" href="">
+          <a className="flex items-center gap-3" href="#projects">
             <RiBookReadLine size={25} />
-            <Link to="/projects">Projects</Link>
+            Projects
           </a>
-          <a className="flex items-center gap-3" href="">
+          <a className="flex items-center gap-3" href="#contact">
             {" "}
             <AiOutlineMail size={25} />
-            <Link to="/contact">Contact</Link>
+            Contact
           </a>
           {/* <Outlet /> */}
         </div>
         {/* <Footer /> */}
       </>
-    </motion.div>
+    </motion.nav>
   );
 };
 

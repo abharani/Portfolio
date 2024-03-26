@@ -19,12 +19,12 @@ function App() {
           </div>
 
           <div className="w-[100%] ml-40  sm:ml-56 lg:ml-72 md:ml-64">
-          {/* <Home/>
+          <Home/>
           <AboutMain/>
           <Resume/>
           <Portfolio/>
-          <Contact/> */}
-                <Routes>
+          <Contact/>
+                {/* <Routes>
                 
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
@@ -33,11 +33,11 @@ function App() {
             <Route path="/projects" element={<Portfolio />} />
             <Route path="/contact" element={<Contact />} />
           
-            </Routes>
+            </Routes> */}
           </div>
         </div>
       
-    </BrowserRouter>
+     </BrowserRouter> 
   );
 }
 
