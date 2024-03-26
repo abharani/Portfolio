@@ -14,6 +14,7 @@ const imgVariant = {
       type: 'tween',
       delay: 0.3,
       duration: 0.5
+      
     }
   },
 }
@@ -30,6 +31,7 @@ const bioVariant = {
       type: 'tween',
       delay: 0.4,
       duration: 0.7
+      
     }
   }
 }
@@ -40,7 +42,7 @@ const About = () => {
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
+      viewport={{ once: true }}
       className="flex flex-col py-16 px-10 xl:px-36 gap-5"
     >
       <Heading text="About" />
@@ -50,6 +52,7 @@ const About = () => {
           variants={imgVariant}
           initial="hidden"
           whileInView="visible"
+          viewport={{ once: true }}
           className="w-[25%] h-[auto] xl:w-[35%]"
         >
           <img
@@ -63,6 +66,7 @@ const About = () => {
           variants={bioVariant}
           initial="hidden"
           whileInView="visible"
+          viewport={{ once: true }}
           className="flex flex-col gap-4 lg:w-[60%] xl:w-[65%]  md:w-[60%] md:text-sm lg:text-base xl:text-xl"
         >
           <h3 className="text-2xl font-semibold  text-[#122D52]">
@@ -92,3 +96,8 @@ const About = () => {
 }
 
 export default About
+
+
+
+
+

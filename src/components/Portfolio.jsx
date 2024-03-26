@@ -12,7 +12,7 @@ import portfolio from "../assets/portfolio.png";
 const slideUp = {
   hidden: {
     opacity: 0,
-    y: "50%",
+    y: "25%",
   },
   visible: {
     opacity: 1,
@@ -31,7 +31,7 @@ const Portfolio = () => {
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
+      viewport={{ once: true }}
       className=" "
     >
       <div className="text-black  py-16  px-10 xl:px-36  w-full ">
@@ -44,6 +44,8 @@ const Portfolio = () => {
                 variants={slideUp}
                 initial="hidden"
                 whileInView="visible"
+                viewport={{ once: true }}
+
                 className="grid lg:grid-cols-2 gap-3 xl:gap-5 sm:flex-row"
               >
               <div className="max-w-lg rounded overflow-hidden shadow-lg">
@@ -94,6 +96,8 @@ const Portfolio = () => {
                 variants={slideUp}
                 initial="hidden"
                 whileInView="visible"
+                viewport={{ once: true }}
+
                 className="grid sm:flex-row lg:grid-cols-2 gap-3 xl:gap-5"
               >
               <div className="max-w-lg rounded overflow-hidden shadow-lg">
@@ -154,6 +158,8 @@ const Portfolio = () => {
                 variants={slideUp}
                 initial="hidden"
                 whileInView="visible"
+                viewport={{ once: true }}
+
                 className="grid sm:flex-row lg:grid-cols-2 xl:gap-5 gap-3"              >
               <div className="max-w-lg rounded overflow-hidden shadow-lg">
                 {/* Wrap the image with an anchor tag */}

@@ -25,7 +25,7 @@ const Resume = () => {
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
+      viewport={{ once: true }}
       className="text-black text-lg py-16 xl:px-36 px-10"
     >
       <Heading text={"Resume"} />
@@ -35,6 +35,8 @@ const Resume = () => {
           variants={slideIn("right")}
           initial="hidden"
           whileInView="visible"
+          viewport={{ once: true }}
+
           className="lg:w-1/2 px-0 xl:px-0 xl:w-1/2 md:w-1/3"
         >
           <h3 className="  font-bold text-xl xl:text-2xl text-[#050d18]  my-5">Summary</h3>
@@ -95,6 +97,8 @@ const Resume = () => {
           variants={slideIn("left")}
           initial="hidden"
           whileInView="visible"
+          viewport={{ once: true }}
+
           className="lg:w-1/2  xl:w-1/2 md:w-1/3 xl:px-0"
         >
           <h3 className="font-bold text-[#050d18] text-xl xl:text-2xl  my-5">

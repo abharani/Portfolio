@@ -26,7 +26,7 @@ const Facts = () => {
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
+      viewport={{ once: true }}
       className="flex flex-col gap-5 lg:py-8 xl:px-36 p-1  lg:px-10"
     >
       <Heading text="Skills" />
@@ -35,6 +35,7 @@ const Facts = () => {
          variants={slideUp}
          initial="hidden"
          whileInView="visible"
+         viewport={{ once: true }}
          className="grid md:grid-cols-6 lg:grid-cols-5  xl:grid-cols-4"
        >
          <div className="flex items-start gap-3 px-6 py-8">
@@ -57,6 +58,7 @@ const Facts = () => {
          variants={slideUp}
          initial="hidden"
          whileInView="visible"
+         viewport={{ once: true }}
          className="grid md:grid-cols-6 lg:grid-cols-5  xl:grid-cols-4"
        >
          <div className="flex items-start gap-3 px-6 py-8">

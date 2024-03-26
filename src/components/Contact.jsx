@@ -252,7 +252,7 @@ const Contact = () => {
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
+      viewport={{ once: true }}
       className="bg-white py-16 md:px-10 lg:px-20 xl:px-36 "
     >
       <Heading text="Contact" />
@@ -262,6 +262,8 @@ const Contact = () => {
           variants={slideIn("right")}
           initial="hidden"
           whileInView="visible"
+          viewport={{ once: true }}
+
           className="flex flex-col justify-between bg-white shadow-xl w-[20%] xl:w-[40%] lg:w-[40%] md:w-[41%] xl:p-8 p-4"
         >
           <div className="flex flex-col gap-7">
@@ -320,6 +322,8 @@ const Contact = () => {
           variants={slideIn("left")}
           initial="hidden"
           whileInView="visible"
+          viewport={{ once: true }}
+
           className="bg-white shadow-xl md:w-[45%] lg:w-[50%] xl:w-[60%]  p-8 "
         >
           <form className="flex flex-col gap-6 pb-0 mb-0 xl:pr-8">
