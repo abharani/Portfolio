@@ -201,7 +201,7 @@ const Portfolio = () => {
                   </a>
                   <div className="px-6 py-4">
                     <div className="font-bold text-xl mb-2">
-                      Google News Clone
+                      Google News UI Clone
                     </div>
                     <p className="text-gray-700 text-base">
                       JavaScript || React || Bootstrap
