@@ -46,7 +46,7 @@ const Resume = () => {
               Abha Rani
             </h4>
             <p className="box-border italic mt-0 mb-4 ">
-              Innovative and deadline-driven Web Developer with 6 months of
+              Innovative and result-driven Web Developer with one year of
               training experience in developing interactive, responsive and
               user-friendly web applications .
             </p>

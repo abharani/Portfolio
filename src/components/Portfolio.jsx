@@ -5,7 +5,7 @@ import todo from "../assets/todo.png";
 import todolist from "../assets/todolist.png";
 import cryptoDashboard from "../assets/cryptoDashboard.png";
 import flipkart from "../assets/flipkart.png";
-import newsclone from "../assets/newsclone.png";
+import googlnews from "../assets/googlnews.png";
 import youtube from "../assets/youtube.png";
 import portfolio from "../assets/portfolio.png";
 
@@ -181,7 +181,7 @@ const Portfolio = () => {
                     />
                   </a>
                   <div className="px-6 py-4">
-                    <div className="font-bold text-xl mb-2">Flipkart Clone</div>
+                    <div className="font-bold text-xl mb-2">Flipkart UI Clone</div>
                     <p className="text-gray-700 text-base">
                       JavaScript || React || TailwindCSS
                     </p>
@@ -195,7 +195,7 @@ const Portfolio = () => {
                   >
                     <img
                       className="w-full"
-                      src={newsclone}
+                      src={googlnews}
                       alt="Description of the image"
                     />
                   </a>
@@ -204,7 +204,7 @@ const Portfolio = () => {
                       Google News UI Clone
                     </div>
                     <p className="text-gray-700 text-base">
-                      JavaScript || React || Bootstrap
+                      JavaScript || React || TailwindCSS
                     </p>
                   </div>
                 </div>
