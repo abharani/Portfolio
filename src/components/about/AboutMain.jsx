@@ -3,7 +3,7 @@ import Facts from "./Facts";
 
 const AboutMain = () => {
   return (
-    <div className=" ">
+    <div className="  ">
       <About />
       <Facts />
     </div>

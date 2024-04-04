@@ -254,11 +254,11 @@ const Contact = () => {
       whileInView="show"
       viewport={{ once: true }}
       id="contact"
-      className="bg-white py-16 md:px-10 lg:px-20 xl:px-36 "
+      className="bg-white    py-16 md:px-10 lg:px-20 xl:px-36 "
     >
       <Heading text="Contact" />
 
-      <div className="flex gap-6 mt-6">
+      <div className="flex   gap-6 mt-6">
         <motion.div
           variants={slideIn("right")}
           initial="hidden"

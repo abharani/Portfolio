@@ -31,26 +31,28 @@ const Navbar = () => {
               alt="profile-img"
             />
           </div>
-          <p className="lg:text-2xl xl:pt-2 sm:text-base font-semibold ">Abha Rani</p>
+          <p className="lg:text-2xl xl:pt-2 sm:text-base font-semibold ">
+            Abha Rani
+          </p>
 
           {/* Social Links */}
-          <div className="flex gap-1 md:gap-5  xl:gap-4 xl:pt-4">
-            <div className="lg:p-[10px] lg:bg-[#2C2F3F] lg:rounded-full">
+          <div className="flex gap-1 md:gap-2  lg:gap-4 xl:pt-4">
+            <div className="lg:p-[10px] p-[4px] lg:bg-[#2C2F3F] rounded-full ">
               <a href="https://mail.google.com/mail?hl=en" target="_blank">
-                <FaEnvelope size={25} href="" />
+                <FaEnvelope className="md:text-lg lg:text-2xl" href="" />
               </a>
             </div>
-            <div className="lg:p-[10px] lg:bg-[#2C2F3F] lg:rounded-full">
+            <div className="lg:p-[10px] p-[4px] lg:bg-[#2C2F3F] lg:rounded-full">
               <a
                 href="https://www.linkedin.com/in/abha-rani-497196283"
                 target="_blank"
               >
-                <FaLinkedinIn size={25} />
+                <FaLinkedinIn className="md:text-lg lg:text-2xl" />
               </a>
             </div>
-            <div className="lg:p-[10px] lg:bg-[#2C2F3F] lg:rounded-full">
+            <div className="lg:p-[10px] p-[4px] lg:bg-[#2C2F3F] lg:rounded-full">
               <a href="https://github.com/abharani" target="_blank">
-                <FaGithub size={25} />
+                <FaGithub className="md:text-lg lg:text-2xl" />
               </a>
             </div>
           </div>
@@ -59,7 +61,7 @@ const Navbar = () => {
         {/* Nav Links */}
         <div className="flex flex-col xl:gap-7 text-[#ABA9B4] md:text-[10px] lg:text-[15px] xl:text-[20px] font-light lg:gap-4 md:gap-2 ml-5 lg:pt-4">
           <a className="flex items-center gap-3" href="">
-            <AiOutlineHome size={25}  />
+            <AiOutlineHome size={25} />
             Home
           </a>
           <a className="flex items-center gap-3" href="#about">
