@@ -19,8 +19,8 @@ const slideUp = {
     y: 0,
     transition: {
       type: "tween",
-      delay: 0.3,
-      duration: 0.5,
+      delay: 0.5,
+      duration: 0.7,
     },
   },
 };
@@ -35,10 +35,10 @@ const Portfolio = () => {
       id="projects"
       className=" "
     >
-      <div className="text-black  py-16  px-10 xl:px-36  w-full ">
+      <div className="text-black  py-16  lg:px-10 xl:px-36  w-full ">
         <Heading text="Projects" />
         <div className="flex flex-col">
-          <div className="w-full ">
+          <div className="w-full md:px-10 lg:px-0 ">
             <div className="grid grid-cols-1 gap-10 place-content-center">
               {/* {images.map((imageUrl, idx) => ( */}
               <motion.div
@@ -59,14 +59,13 @@ const Portfolio = () => {
                   </a>
                   <div className="px-6 py-4">
                     <div className="font-bold text-xl mb-2">Portfolio</div>
-                    <p className="text-gray-700 text-base">
-                      <ul>
-                        <li className="lg:text-sm">
-                          Portfolio designed using React{" "}
-                        </li>
-                      </ul>
+
+                    <ul className="text-gray-700 lg:text-base xl:text-base">
+                      <li className="lg:text-sm">
+                        Portfolio designed using React{" "}
+                      </li>
                       JavaScript || React || TailwindCSS || Framer Motion ||
-                    </p>
+                    </ul>
                   </div>
                 </div>
                 <div className="max-w-lg rounded overflow-hidden shadow-lg">
@@ -90,11 +89,11 @@ const Portfolio = () => {
                       currencies with their market capital value on various
                       graphs for different time duration with an exchange
                       feature.
-                      <p className="lg:text-base">
-                        {" "}
-                        React || TailwindCSS || Redux ||Coin gecko Api || React
-                        Charts
-                      </p>
+                    </p>
+                    <p className="lg:text-base text-gray-700">
+                      {" "}
+                      React || TailwindCSS || Redux ||Coin gecko Api || React
+                      Charts
                     </p>
                   </div>
                 </div>
@@ -126,16 +125,16 @@ const Portfolio = () => {
                       Provides RESTful APIs with endpoints for managing YouTube
                       Subscriber's data retrieval in JSON format. Implemented
                       endpoints for:
-                      <ul>
-                        <li>- Get all subscribers data</li>
-                        <li>
-                          - Get all subscriber's names and subscribed channels
-                        </li>
-                        <li>- Get a specific subscriber information by ID.</li>
-                      </ul>
-                      <p className="lg:text-base">
-                        Node.js ||Express ||MongoDB || Mongoose || Swagger
-                      </p>
+                    </p>
+                    <ul className="text-gray-700 lg:text-sm xl:text-base">
+                      <li>- Get all subscribers data</li>
+                      <li>
+                        - Get all subscriber's names and subscribed channels
+                      </li>
+                      <li>- Get a specific subscriber information by ID.</li>
+                    </ul>
+                    <p className="text-gray-700 lg:text-base">
+                      Node.js ||Express ||MongoDB || Mongoose || Swagger
                     </p>
                   </div>
                 </div>
@@ -153,14 +152,14 @@ const Portfolio = () => {
                       effortlessly create, prioritize, edit, and delete tasks
                       effortlessly. Stay organized, boost productivity, and
                       never miss a deadline again!
-                      <ul>
-                        <li>- Editing and update the task once created</li>
-                        <li>- Delete the task once completed</li>
-                        <li className="lg:text-base">
-                          JavaScript || TailwindCSS || React ||
-                        </li>
-                      </ul>
                     </p>
+                    <ul className="text-gray-700 lg:text-sm xl:text-base">
+                      <li>- Editing and update the task once created</li>
+                      <li>- Delete the task once completed</li>
+                      <li className="lg:text-base">
+                        JavaScript || TailwindCSS || React ||
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </motion.div>
@@ -181,7 +180,9 @@ const Portfolio = () => {
                     />
                   </a>
                   <div className="px-6 py-4">
-                    <div className="font-bold text-xl mb-2">Flipkart UI Clone</div>
+                    <div className="font-bold text-xl mb-2">
+                      Flipkart UI Clone
+                    </div>
                     <p className="text-gray-700 text-base">
                       JavaScript || React || TailwindCSS
                     </p>

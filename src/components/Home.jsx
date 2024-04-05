@@ -31,7 +31,7 @@ const Home = () => {
         viewport={{ once: true, amount: 0.25 }}
         className="  justify-center   "
       >
-        <div className=" flex justify-end h-full w-full ">
+        <div className=" flex lg:ml-12 xl:ml-0 justify-end h-full w-full ">
           <motion.div
             variants={imgVariant}
             initial="hidden"
@@ -40,8 +40,8 @@ const Home = () => {
             className="   "
           >
             <img
-              className=" rounded-full rounded-ss-xl xl:my-32 xl:w-[70%] xl:mr-24 lg:w-[50%] lg:mr-12 lg:my-28 mr-4 md:w-[40%] md:mt-16"
-              src="./images/profile.png"
+              className=" border-[#42b5da] border-2 xl:border-4 rounded-full  bg-gradient-to-tl from-[#209cd6] to-teal-100 xl:my-28 xl:w-[70%] xl:mr-28 lg:w-[50%]  lg:mr-12 lg:my-28 mr-4 md:w-[40%] md:mt-16"
+              src="./images/profile-removebg-preview.png"
               alt=""
             />
           </motion.div>
@@ -54,7 +54,7 @@ const Home = () => {
             className="text-[24px] md:text-[20px]  lg:text-[32px] xl:text-[32px] "
           >
             H<span className="font-serif">ello, I am</span>
-            <span className="md:text-[30px] font-serif xl:text-[60px] lg:text-[45px]   block font-bold ">
+            <span className="md:text-[30px] font-serif xl:text-[60px]  text-[#147fdd] lg:text-[45px]   block font-bold ">
               {" "}
               Abha Rani
             </span>
@@ -66,9 +66,10 @@ const Home = () => {
             Web Developer
           </motion.div>
           <motion.div variants={textVariant(1.1)}>
-            <button class="bg-white hover:bg-gray-300  text-black border-black border-2 lg:text-xl lg:font-bold  font-medium text-base py-1 px-2 rounded-xl">
+            <button className="bg-white hover:bg-gray-300  text-black border-black border-2 lg:text-xl lg:font-bold  font-medium text-base py-1 px-2 rounded-xl">
               <a
                 href="https://drive.google.com/file/d/1tOM2C06kzFMpmWL95VfPNUEkEEpOb1fm/view?usp=sharing"
+                target="_blank"
                 // download={AbhaResume.pdf
                 download={"AbhaResume.pdf"}
               >

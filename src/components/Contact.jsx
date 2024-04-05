@@ -217,7 +217,7 @@ const slideIn = (direction) => ({
     x: 0,
     transition: {
       type: "tween",
-      delay: 0.4,
+      delay: 0.6,
       duration: 0.7,
     },
   },
@@ -264,7 +264,6 @@ const Contact = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-
           className="flex flex-col justify-between bg-white shadow-xl w-[20%] xl:w-[40%] lg:w-[40%] md:w-[41%] xl:p-8 p-4"
         >
           <div className="flex flex-col gap-7">
@@ -296,7 +295,9 @@ const Contact = () => {
                 alt="profile-img"
               />
             </div>
-            <p className="text-2xl  self-center font-semibold my-[14px]">Abha Rani</p>
+            <p className="text-2xl  self-center font-semibold my-[14px]">
+              Abha Rani
+            </p>
 
             {/* Social Links */}
             <div className="flex self-center pb-4 gap-3">
@@ -304,7 +305,10 @@ const Contact = () => {
                 <a
                   href="https://www.linkedin.com/in/abha-rani-497196283"
                   target="_blank"
-                > <FaLinkedinIn size={23} /></a>
+                >
+                  {" "}
+                  <FaLinkedinIn size={23} />
+                </a>
               </div>
               <div className="p-[10px] bg-[#dff3fc] rounded-full">
                 <BsSlack size={23} />
@@ -324,11 +328,9 @@ const Contact = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-
           className="bg-white shadow-xl md:w-[45%] lg:w-[50%] xl:w-[60%]  p-8 "
         >
           <form className="flex flex-col gap-6 pb-0 mb-0 xl:pr-8">
-
             <Input type="text" label="Your Name" />
             <Input type="text" label="Your Email" />
 

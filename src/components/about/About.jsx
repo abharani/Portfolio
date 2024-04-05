@@ -9,7 +9,7 @@ import Bio from "./Bio";
 const bioVariant = {
   hidden: {
     opacity: 0,
-    y: '100%'
+    y: '70%'
   },
   visible: {
     opacity: 1,
@@ -17,7 +17,7 @@ const bioVariant = {
     transition: {
       type: 'tween',
       delay: 0.2,
-      duration: 0.7
+      duration: 0.6
       
     }
   }
@@ -31,7 +31,7 @@ const About = () => {
       whileInView="show"
       viewport={{ once: true }}
       id="about"
-      className="flex flex-col py-16 px-10 xl:px-36 gap-5"
+      className="flex flex-col py-16 lg:px-10 xl:px-36 gap-5"
     >
       <Heading text="About" />
 
