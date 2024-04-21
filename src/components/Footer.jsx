@@ -8,7 +8,7 @@ const Footer = () => {
          variants={footerVariants}
          initial="hidden"
          whileInView="show"
-         className="flex flex-col items-center text-white mx-auto text-sm  align-middle"
+         className="flex flex-col items-center text-white mx-auto text-sm align-middle"
       >
       
          <div>

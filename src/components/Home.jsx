@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { staggerContainer, textVariant, textVariant2 } from "../utils/motion";
 import { FaLinkedinIn, FaEnvelope, FaGithub } from "react-icons/fa";
+import AbhaResume from "../assets/AbhaResume.pdf";
 import AboutMain from "./about/AboutMain";
 import Resume from "./Resume/Resume";
 import Portfolio from "./Portfolio";
@@ -31,7 +32,7 @@ const Home = () => {
         viewport={{ once: true, amount: 0.25 }}
         className="  justify-center   "
       >
-        <div className=" flex lg:ml-12 xl:ml-0 justify-end h-full w-full ">
+        <div className=" flex lg:ml-16 xl:ml-0 md:justify-center lg:justify-end  h-full w-full ">
           <motion.div
             variants={imgVariant}
             initial="hidden"
@@ -40,8 +41,9 @@ const Home = () => {
             className="   "
           >
             <img
-              className=" border-[#42b5da] border-2 xl:border-4 rounded-full  bg-gradient-to-tl from-[#209cd6] to-teal-100 xl:my-28 xl:w-[70%] xl:mr-28 lg:w-[50%]  lg:mr-12 lg:my-28 mr-4 md:w-[40%] md:mt-16"
-              src="./images/profile-removebg-preview.png"
+              className=" rounded-xl md:mt-16 h-80 md:ml-20  lg:mr-64  lg:my-28  lg:w-64  xl:w-96 xl:h-[80vh] xl:my-4 xl:py-24 xl:pt-40 xl:rounded-3xl"
+              // className=" border-[#42b5da] border-2 xl:border-4 rounded-full  bg-gradient-to-tl from-[#209cd6] to-teal-100 xl:my-28 xl:w-[70%] xl:mr-28 lg:w-[50%]  lg:mr-12 lg:my-28 mr-4 md:w-[40%] md:mt-16"
+              src="./images/profile.png"
               alt=""
             />
           </motion.div>
@@ -66,15 +68,19 @@ const Home = () => {
             Web Developer
           </motion.div>
           <motion.div variants={textVariant(1.1)}>
-            <button className="bg-white hover:bg-gray-300  text-black border-black border-2 lg:text-xl lg:font-bold  font-medium text-base py-1 px-2 rounded-xl">
-              <a
+            <button
+              className="bg-white hover:bg-gray-300  text-black border-black border-2 lg:text-xl lg:font-bold  font-medium text-base py-1 px-2 rounded-xl"
+              onClick={() => window.open(AbhaResume, "_blank")}
+            >
+              Download CV
+              {/* <a
                 href="https://drive.google.com/file/d/1tOM2C06kzFMpmWL95VfPNUEkEEpOb1fm/view?usp=sharing"
                 target="_blank"
                 // download={AbhaResume.pdf
                 download={"AbhaResume.pdf"}
               >
-                Download CV
-              </a>
+                Download CV */}
+              {/* </a> */}
             </button>
             {/* <button className=" border rounded-2xl border-black text-black text-lg gap-3">Download CV</button> */}
             <div className="flex mt-4 gap-1 justify-center lg:gap-4 xl:pt-4 ">

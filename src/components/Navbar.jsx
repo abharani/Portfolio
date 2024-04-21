@@ -11,6 +11,7 @@ import { BiServer } from "react-icons/bi";
 import { motion } from "framer-motion";
 import { navVariants } from "../utils/motion";
 import { Link, } from "react-router-dom";
+import Footer from "./Footer";
 // import Footer from  "./Footer"
 
 const Navbar = () => {
@@ -19,7 +20,7 @@ const Navbar = () => {
       variants={navVariants}
       initial="hidden"
       whileInView="show"
-      className="text-white space-y-8 px-4"
+      className="text-white space-y-8 px-4 "
     >
       {/* Profile */}
       <>
@@ -89,6 +90,7 @@ const Navbar = () => {
         </div>
         {/* <Footer /> */}
       </>
+      {/* <Footer /> */}
     </motion.nav>
   );
 };
