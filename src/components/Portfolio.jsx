@@ -103,6 +103,53 @@ const Portfolio = () => {
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }}
+                className="grid sm:flex-row lg:grid-cols-2 xl:gap-5 gap-3"
+              >
+                <div className="max-w-lg rounded overflow-hidden shadow-lg">
+                  {/* Wrap the image with an anchor tag */}
+                  <a href={flipkart} target="_blank">
+                    <img
+                      className="w-full"
+                      src={flipkart}
+                      alt="Flipkart clone"
+                    />
+                  </a>
+                  <div className="px-6 py-4">
+                    <div className="font-bold text-xl mb-2">
+                      Flipkart UI Clone
+                    </div>
+                    <p className="text-gray-700 text-base">
+                      JavaScript || React || TailwindCSS
+                    </p>
+                  </div>
+                </div>
+                <div className="max-w-lg rounded overflow-hidden shadow-lg">
+                  {/* Wrap the image with an anchor tag */}
+                  <a
+                    href="https://main--newsclonegoogle.netlify.app/"
+                    target="_blank"
+                  >
+                    <img
+                      className="w-full"
+                      src={googlnews}
+                      alt="Description of the image"
+                    />
+                  </a>
+                  <div className="px-6 py-4">
+                    <div className="font-bold text-xl mb-2">
+                      Google News UI Clone
+                    </div>
+                    <p className="text-gray-700 text-base">
+                      JavaScript || React || TailwindCSS
+                    </p>
+                  </div>
+                </div>
+              </motion.div>
+              <motion.div
+                variants={slideUp}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
                 className="grid sm:flex-row lg:grid-cols-2 gap-3 xl:gap-5"
               >
                 <div className="max-w-lg rounded overflow-hidden shadow-lg">
@@ -160,53 +207,6 @@ const Portfolio = () => {
                         JavaScript || TailwindCSS || React ||
                       </li>
                     </ul>
-                  </div>
-                </div>
-              </motion.div>
-              <motion.div
-                variants={slideUp}
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true }}
-                className="grid sm:flex-row lg:grid-cols-2 xl:gap-5 gap-3"
-              >
-                <div className="max-w-lg rounded overflow-hidden shadow-lg">
-                  {/* Wrap the image with an anchor tag */}
-                  <a href={flipkart} target="_blank">
-                    <img
-                      className="w-full"
-                      src={flipkart}
-                      alt="Flipkart clone"
-                    />
-                  </a>
-                  <div className="px-6 py-4">
-                    <div className="font-bold text-xl mb-2">
-                      Flipkart UI Clone
-                    </div>
-                    <p className="text-gray-700 text-base">
-                      JavaScript || React || TailwindCSS
-                    </p>
-                  </div>
-                </div>
-                <div className="max-w-lg rounded overflow-hidden shadow-lg">
-                  {/* Wrap the image with an anchor tag */}
-                  <a
-                    href="https://main--newsclonegoogle.netlify.app/"
-                    target="_blank"
-                  >
-                    <img
-                      className="w-full"
-                      src={googlnews}
-                      alt="Description of the image"
-                    />
-                  </a>
-                  <div className="px-6 py-4">
-                    <div className="font-bold text-xl mb-2">
-                      Google News UI Clone
-                    </div>
-                    <p className="text-gray-700 text-base">
-                      JavaScript || React || TailwindCSS
-                    </p>
                   </div>
                 </div>
               </motion.div>
