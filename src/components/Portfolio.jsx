@@ -8,7 +8,7 @@ import flipkart from "../assets/flipkart.png";
 import googlnews from "../assets/googlnews.png";
 import youtube from "../assets/youtube.png";
 import portfolio from "../assets/portfolio.png";
-
+import airbnb from "../assets/airbnb.png";
 const slideUp = {
   hidden: {
     opacity: 0,
@@ -50,20 +50,21 @@ const Portfolio = () => {
               >
                 <div className="max-w-lg rounded overflow-hidden shadow-lg">
                   {/* Wrap the image with an anchor tag */}
-                  <a  target="_blank">
+                  <a
+                    href="https://air-rent-booking.vercel.app/"
+                    target="_blank"
+                  >
                     <img
                       className="w-full"
-                      src={portfolio}
+                      src={airbnb}
                       alt="Description of the image"
                     />
                   </a>
                   <div className="px-6 py-4">
-                    <div className="font-bold text-xl mb-2">Portfolio</div>
+                    <div className="font-bold text-xl mb-2">Air BNB Clone</div>
 
                     <ul className="text-gray-700 lg:text-base xl:text-base">
-                      <li className="lg:text-sm">
-                        Portfolio designed using React{" "}
-                      </li>
+                      <li className="lg:text-sm"> </li>
                       JavaScript || React || TailwindCSS || Framer Motion ||
                     </ul>
                   </div>
