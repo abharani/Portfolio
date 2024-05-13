@@ -107,7 +107,7 @@ const Resume = () => {
           </h3>
           <div className="relative md:text-sm xl:text-lg pl-5 -scroll-mt-0.5 border-l-2 border-[#1f5297] pb-5 pt-0 pr-0 ">
             <h4 className=" text-lg font-semibold font-sans text-[#050d18] mt-0 mb-2.5">
-              AlmaBetter — Trainee
+              AlmaBetter — Internship Trainee
             </h4>
             <h5 className=" text-base bg-[#e4edf9] py-1.5 px-4 inline-block font-semibold md:text-sm xl:text-lg mb-2.5 mt-0 font-sans">
               2023-Present
