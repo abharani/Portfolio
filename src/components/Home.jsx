@@ -30,27 +30,28 @@ const Home = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: true, amount: 0.25 }}
-        className="  justify-center   "
+        className="  justify-center h-screen w-center ml-20  "
       >
         <div className=" flex lg:ml-16 xl:ml-0 md:justify-center lg:justify-end  h-full w-full ">
-          <motion.div
+          {/* <motion.div
             variants={imgVariant}
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
-            className="   "
-          >
-            <img
+            className="   " */}
+          {/* > */}
+            {/* <img
               className=" rounded-xl md:mt-16 h-80 md:ml-20  lg:mr-52  lg:my-20  lg:w-64  xl:w-96 xl:h-[80vh] xl:my-4 xl:py-24 xl:pt-40 xl:rounded-3xl"
               // className=" border-[#42b5da] border-2 xl:border-4 rounded-full  bg-gradient-to-tl from-[#209cd6] to-teal-100 xl:my-28 xl:w-[70%] xl:mr-28 lg:w-[50%]  lg:mr-12 lg:my-28 mr-4 md:w-[40%] md:mt-16"
               src="./images/profile.png"
               alt=""
-            />
-          </motion.div>
+            /> */}
+          {/* </motion.div> */}
         </div>
         {/* mr-12 my-32 w-[25%] max-w-[25%] h-[auto] xl:max-w-[30%] xl:w-[30%] */}
         {/* md:mr-28 */}
-        <div className="absolute md:top-[20vh] lg:top-[20vh] text-center sm:left-52 sm:top-96 left-20 top-72  xl:left-[60vh] lg:left-96 text-black  justify-center md:left-80 ">
+        {/* md:w-[40%] md:mt-16 */}
+        <div className="absolute md:top-[20vh] lg:top-[20vh] text-center sm:left-52 sm:top-96 left-20 top-72  xl:left-[60vh] lg:left-96 text-black  justify-center align-center self-center  md:left-80  ">
           <motion.div
             variants={textVariant2}
             className="text-[24px] md:text-[20px]  lg:text-[32px] xl:text-[32px] "

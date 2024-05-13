@@ -50,7 +50,7 @@ const Portfolio = () => {
               >
                 <div className="max-w-lg rounded overflow-hidden shadow-lg">
                   {/* Wrap the image with an anchor tag */}
-                  <a href={portfolio} target="_blank">
+                  <a  target="_blank">
                     <img
                       className="w-full"
                       src={portfolio}
