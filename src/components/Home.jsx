@@ -40,12 +40,12 @@ const Home = () => {
             viewport={{ once: true }}
             className="   "
           >
-            {/* <img
-              className=" rounded-xl md:mt-16 h-80 md:ml-20  lg:mr-64  lg:my-28  lg:w-64  xl:w-96 xl:h-[80vh] xl:my-4 xl:py-24 xl:pt-40 xl:rounded-3xl"
+            <img
+              className=" rounded-xl md:mt-16 h-80 md:ml-20  lg:mr-52  lg:my-20  lg:w-64  xl:w-96 xl:h-[80vh] xl:my-4 xl:py-24 xl:pt-40 xl:rounded-3xl"
               // className=" border-[#42b5da] border-2 xl:border-4 rounded-full  bg-gradient-to-tl from-[#209cd6] to-teal-100 xl:my-28 xl:w-[70%] xl:mr-28 lg:w-[50%]  lg:mr-12 lg:my-28 mr-4 md:w-[40%] md:mt-16"
               src="./images/profile.png"
               alt=""
-            /> */}
+            />
           </motion.div>
         </div>
         {/* mr-12 my-32 w-[25%] max-w-[25%] h-[auto] xl:max-w-[30%] xl:w-[30%] */}
