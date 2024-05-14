@@ -330,18 +330,21 @@ const Contact = () => {
           viewport={{ once: true }}
           className="bg-white shadow-xl md:w-[45%] lg:w-[50%] xl:w-[60%]  p-8 "
         >
-          <form className="flex flex-col gap-6 pb-0 mb-0 xl:pr-8">
-            <Input type="text" label="Your Name" />
-            <Input type="text" label="Your Email" />
+          <form
+            action="https://formspree.io/f/mwkgzrwp" method="POST"
+            className="flex flex-col gap-6 pb-0 mb-0 xl:pr-8"
+          >
+            <Input type="text" id="name" label="Your Name" name="name" required  />
+            <Input type="text" id="email" label="Your Email" name="email" required />
 
-            <Input type="text" label="Subject" />
+            <Input type="text" id="subject" label="Subject" name="subject" required />
 
             <div>
               <label className="text-lg  text-black">Message</label>
-              <textarea className="ring-1  outline-none ring-gray-300 px-4  w-full h-40"></textarea>
+              <textarea name="message" required className="ring-1  outline-none ring-gray-300 px-4  w-full h-40"></textarea>
             </div>
 
-            <button className="inline-block self-center bg-[#149DDD] rounded-md text-white px-6 py-3 mt-2">
+            <button type="submit" value={"Send"} className="inline-block self-center bg-[#149DDD] rounded-md text-white px-6 py-3 mt-2">
               Send Message
             </button>
           </form>
