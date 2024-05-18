@@ -8,7 +8,7 @@ import flipkart from "../assets/flipkart.png";
 import googlnews from "../assets/googlnews.png";
 import youtube from "../assets/youtube.png";
 import portfolio from "../assets/portfolio.png";
-import airbnb from "../assets/airbnb.png";
+// import airbnb from "../assets/airbnb.png";
 const slideUp = {
   hidden: {
     opacity: 0,
@@ -53,7 +53,7 @@ const Portfolio = () => {
                   <a href="https://portfolio-abha.netlify.app/" target="_blank">
                     <img
                       className="w-full"
-                      src={airbnb}
+                      src={portfolio}
                       alt="Description of the image"
                     />
                   </a>
