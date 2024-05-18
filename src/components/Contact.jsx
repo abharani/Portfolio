@@ -334,8 +334,8 @@ const Contact = () => {
             action="https://formspree.io/f/mwkgzrwp" method="POST"
             className="flex flex-col gap-6 pb-0 mb-0 xl:pr-8"
           >
-            <Input type="text" id="name" label="Your Name" name="name" required  />
-            <Input type="email" id="email" label="Your Email" name="email" required />
+            <Input type="text" id="name" label="Your Name" for="Name" name="name" required  />
+            <Input type="email" id="email" label="Your Email"  for="email" name="email" required />
 
             <Input type="text" id="subject" label="Subject" name="subject" required />
 

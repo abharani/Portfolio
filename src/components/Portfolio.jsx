@@ -50,10 +50,7 @@ const Portfolio = () => {
               >
                 <div className="max-w-lg rounded overflow-hidden shadow-lg">
                   {/* Wrap the image with an anchor tag */}
-                  <a
-                    href="https://air-rent-booking.vercel.app/"
-                    target="_blank"
-                  >
+                  <a href="https://portfolio-abha.netlify.app/" target="_blank">
                     <img
                       className="w-full"
                       src={airbnb}
@@ -61,7 +58,7 @@ const Portfolio = () => {
                     />
                   </a>
                   <div className="px-6 py-4">
-                    <div className="font-bold text-xl mb-2">Air BNB Clone</div>
+                    <div className="font-bold text-xl mb-2">Portfolio</div>
 
                     <ul className="text-gray-700 lg:text-base xl:text-base">
                       <li className="lg:text-sm"> </li>
