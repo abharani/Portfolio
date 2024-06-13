@@ -53,7 +53,7 @@ const Resume = () => {
             <ul className="mt-0 mb-4 pl-5 block list-disc ">
               <li className=" pb-2.5 list-item ">New Delhi, India 110084</li>
               <li className=" pb-2.5">(+91) 7011231189</li>
-              <li className=" pb-2.5">abha.</li>
+              <li className=" pb-2.5">abha.rangira@gmail.com</li>
             </ul>
           </div>
           <h3 className=" font-bold  text-[#050d18] text-xl xl:text-2xl my-5">
